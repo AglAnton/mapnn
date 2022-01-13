@@ -20,20 +20,59 @@
 <body class="vh-100 overflow-hidden">
   <div class="container-fluid h-100">
     <div class="row h-100">
-      <div class="col-md-3 col-12 p-0 bg-dark block-menu">
-        <ul class="list-group m-4">
-          <li class="list-group-item list-group-item-primary" data-id="1">Высшие учебные заведения</li>
+      <div class="col-md-3 col-12 p-0 bg-dark block-menu p-4">
+
+        <h5 class="text-light">Экономика</h5>
+        <ul class="list-group mb-4">
+          <li class="list-group-item list-group-item-primary" data-id="7">Соседи города</li>
+        </ul>
+
+        <h5 class="text-light">Право</h5>
+        <ul class="list-group mb-4">
+          <li class="list-group-item" data-id="5">Районы и их администрации</li>
+        </ul>
+
+        <h5 class="text-light">Социалогические науки</h5>
+        <ul class="list-group mb-4">
+          <li class="list-group-item" data-id="6">Инфраструктура города</li>
+        </ul>
+
+        <h5 class="text-light">Образование</h5>
+        <ul class="list-group mb-4">
+          <li class="list-group-item" data-id="1">Высшие учебные заведения</li>
           <li class="list-group-item" data-id="2">Школы, гимназии и лицеи</li>
           <li class="list-group-item" data-id="3">Детские сады</li>
-          <li class="list-group-item" data-id="4">Места, которые стоит посетить</li>
         </ul>
+
+        <h5 class="text-light">Психология</h5>
+        <ul class="list-group mb-4">
+          <li class="list-group-item" data-id="4">Самые посещяемые места</li>
+        </ul>
+
       </div>
       <div class="col-md-9 col-12 p-0 vh-100 block-map">
         <div class="h-100">
-          <iframe id="1" class="map w-100 h-100" src="https://www.google.com/maps/d/embed?mid=1j1abInHOdeTorF9u7pkl58pQJCod5rmR&ehbc=2E312F&z=11"></iframe>
+          <!-- Вузы -->
+          <iframe id="1" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1j1abInHOdeTorF9u7pkl58pQJCod5rmR&ehbc=2E312F&z=11"></iframe>
+
+          <!-- Школы -->
           <iframe id="2" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1MgxMfzf6DHNZGvXmwAiUOo7Yfju8NVJw&ehbc=2E312F&z=11"></iframe>
+
+          <!-- Детские сады -->
           <iframe id="3" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1oR_TsBXhh9C7XjwCXXLCtNLe4O83eIQH&ehbc=2E312F&z=11"></iframe>
-          <iframe id="4" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1f0gD-1jVyuHAD3vyQLOgiyWT2CkTo8EY&ehbc=2E312F&z=11"></iframe>
+
+          <!-- Психолигия -->
+          <iframe id="4" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=19ic5uaogQzEriGYrvDKymzeRzxVNZsNN&ehbc=2E312F&z=11"></iframe>
+
+          <!-- Право -->
+          <iframe id="5" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1_hNvFdUfTT2h6FkkTNDEwCHdNIN2yRp2&ehbc=2E312FF&z=10"></iframe>
+
+          <!-- Экономика -->
+          <iframe id="6" class="map w-100 h-100 d-none" src="https://www.google.com/maps/d/embed?mid=1GHw1xdequA4lj9aFH56QKrqBrUu8wxMK&ehbc=2E312F&z=9"></iframe>
+
+          <!-- Экономика -->
+          <iframe id="7" class="map w-100 h-100" src="https://www.google.com/maps/d/embed?mid=17z1v8L9gPwAiDBUldVWjvk0_pHig01Ao&ehbc=2E312F&z=11"></iframe>
+
         </div>
       </div>
     </div>
